@@ -1,0 +1,35 @@
+{
+    "name": "poorbash/zurielchatbot",
+    "description": "Simple Telegram Messaging Bot",
+    "keywords": [
+        "zurielchatbot",
+        "zuriel chat bot",
+        "telegram",
+        "bot",
+        "api",
+        "project"
+    ],
+    "homepage": "https://github.com/poorbash/ZurielChatBot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pooria Bashiri",
+            "email": "po.pooria@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-nd_pdo_mysql": "*",
+        "illuminate/database": "^9.43",
+        "nutgram/nutgram": "^3.9",
+        "symfony/cache": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "poorbash\\ZurielChatBot\\App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
